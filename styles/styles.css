@@ -1,35 +1,69 @@
 
 body {        
     font-family: 'Titillium Web', sans-serif;
-    background-color: #FFFCFA;
+    background-color: #F8BD7F;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
 
 main {
     padding: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
-    background-color: #A2D7D2;
-    height: 110px;
-    padding: 0 30px;
+    background-color:#F2AA7E;
+    /* height: 110px; */
+    padding: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center, space-around;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #3E4E50;
+    padding: 0px;
 }
 
 header img {
-    height: 100%;
-    object-fit: contain;
-}
-
-h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
+    justify-content: flex-start;
 }
 
 footer {
-    background-color: #FAF0EA;
+    background-color: #FACFAD;
     padding: 10px;
+}
+
+#output-page {
+    visibility: hidden;
+   ;
+    
+}
+
+input {
+    background-color: #FACFAD;
+    border-radius: 20px;
+}
+
+#initial-page {
+    font-size: 20px;
+    color: #3E4E50; 
+}
+
+#submit{
+    background-color: #F2AA7E;
+    color: #3E4E50; 
+    border-radius: 20px; 
+    font-size: 1.5rem;
+}
+
+#output-page {
+    font-size: 20px;
+    color: #3E4E50; 
 }

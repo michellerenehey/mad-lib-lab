@@ -13,18 +13,28 @@
 
 <body>
     <header>
-        <h1>My App</h1>
-        <img src="assets/big-logo.png" />
+        <h1>My Rad Mad Lib</h1>
+        <br><img class="tube-man" src="./assets/inflatable-tube-man.jpeg">
     </header>
     
     <main>
-
-        Make a Web App!
+        <div id = "initial-page">
+            Noun 
+            <br><input id = "noun-input"><br>
+            Verb
+            <br><input id = "verb-input"><br>
+            Adjective
+            <br><input id = "adj-input"><br>
+            <br><button id = "submit">SUBMIT</button>
+        </div>
+        <div id = "output-page">
+            There once was a really <span id = "adj-output">adjective</span> <span id = "noun-output">noun</span> who loved to <span id = "verb-output">verb</span>. 
+        </div>
         
     </main>
 
     <footer>
-        &copy; 2021 Alchemy Code Lab
+        &copy; Michelle's Rad Mad (Lib)
     </footer>
 
     <script type="module" src="./app.js"></script>
