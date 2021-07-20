@@ -7,7 +7,7 @@ body {
 }
 
 main {
-    padding: 30px;
+    /* padding: 30px; */
     display: grid;
     align-items: center;
     justify-content: center;
@@ -54,6 +54,9 @@ input {
 #initial-page {
     font-size: 20px;
     color: #3E4E50; 
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
 }
 
 #submit{
@@ -66,4 +69,19 @@ input {
 #output-page {
     font-size: 20px;
     color: #3E4E50; 
+    text-align: center;
 }
+
+#reset {
+    background-color:coral;
+    color: #3E4E50; 
+    border-radius: 20px; 
+    font-size: 1rem;
+}
+
+img {
+    transition: transform .7s ease-in-out;
+  }
+img:hover {
+    transform: rotate(720deg);
+  }

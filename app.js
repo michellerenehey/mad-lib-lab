@@ -1,6 +1,8 @@
 // import functions
 
 // reference needed DOM elements
+const h1El = document.getElementById ('h1')
+
 const initialPageEl = document.getElementById ('inital-page'); 
 const nounInputEl = document.getElementById ('noun-input'); 
 const verbInputEl = document.getElementById ('verb-input'); 
