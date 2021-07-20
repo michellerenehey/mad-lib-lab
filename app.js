@@ -12,6 +12,7 @@ const adjOutputEl = document.getElementById ('adj-output');
 
 const submitEl = document.getElementById ('submit'); 
 const outputPageEl = document.getElementById ('output-page'); 
+const resetEl = document.getElementById ('reset'); 
 
 
 nounInputEl.addEventListener('input', () => {
@@ -28,6 +29,13 @@ adjInputEl.addEventListener('input', () => {
 
 submitEl.addEventListener('click', ()=> {
   outputPageEl.style.visibility = "visible";
+  });
+
+resetEl.addEventListener('click', ()=> {
+    outputPageEl.style.visibility = "hidden";
+    nounInputEl.value = " "; 
+    verbInputEl.value = " "; 
+    adjInputEl.value = ' ';
   });
 
 
